@@ -3,5 +3,5 @@ TUI app for managing Jira issues and logging work hours
 
 ## Install
 ```shell
-brew install --cask balazshasprai/jlo/jlo
+brew install --cask balazshasprai/tools/jlo
 ```

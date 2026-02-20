@@ -3,7 +3,7 @@ cask "jlo" do
   name "jlo"
   desc "TUI app for managing Jira issues and logging work hours"
   homepage "https://gitlab.com/balazs.hasprai/jlo"
-  version "0.0.19"
+  version "0.0.20"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "jlo" do
   on_macos do
     on_intel do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/#{version}/downloads/jlo_Darwin_x86_64.tar.gz"
-      sha256 "be8d85e94dbcf51e3621b75969bbbbbaf087cee26d2c72f946cd8ab114379137"
+      sha256 "7e1e0f5c5b0b6e59389551d5c4e0ba84167ee70b443ae95ceba267633cf35e39"
     end
     on_arm do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/#{version}/downloads/jlo_Darwin_arm64.tar.gz"
-      sha256 "f29a1f78926530715a07b108beb9a4369a0e44602006d1056ee5850d42aaf53b"
+      sha256 "8e24040ffe2ea09d8c9f7930ab2196666415a0905056cc1d70b1238d4a9ac0dd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/#{version}/downloads/jlo_Linux_x86_64.tar.gz"
-      sha256 "726e980cc4e391da1665beb64e911c1425f6ff425d9494167b4de9d6322d40e7"
+      sha256 "a4b07581d0236d0a00980c00825d194eb46166aad6beb512cd89567977bd54b7"
     end
     on_arm do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/#{version}/downloads/jlo_Linux_arm64.tar.gz"
-      sha256 "900fe7a162bb4f77e4a69e12d4b8593152eda9a811783e5bc7a486e819f01383"
+      sha256 "e8ab94f5c96553a6fbebc5589c16f10e56f9d66af144bdbd9ab12cb9c4ab2b63"
     end
   end
 

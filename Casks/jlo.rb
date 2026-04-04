@@ -5,22 +5,22 @@ cask "jlo" do
   on_macos do
     on_intel do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/v#{version}/downloads/jlo_Darwin_x86_64.tar.gz"
-      sha256 "9ad14ecdb44d0b709a6a0e170bd07b87a8dea889e2b5f2cea784dc2c037e0170"
+      sha256 "5de6c0a3e026a7f64a81b00098f5188fd1f1bc4d5e26ba43094ce987a0d4ce0c"
     end
     on_arm do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/v#{version}/downloads/jlo_Darwin_arm64.tar.gz"
-      sha256 "18df32d4ecc2efeb480d0f8285c6812c1954d7370f00f37bc7deda625267f7db"
+      sha256 "aa137a575fd93039832f59d25894589d4494161d25fd63fea3986a793eddce06"
     end
   end
 
   on_linux do
     on_intel do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/v#{version}/downloads/jlo_Linux_x86_64.tar.gz"
-      sha256 "6a5f26bd039db4fc057df152683f5512494efbb388eac4a245f0f2d771f726db"
+      sha256 "e5b9bbea96132b575225a40490c72be6f209aa39a6e4ef61440ef3c7b1abe68e"
     end
     on_arm do
       url "https://gitlab.com/balazs.hasprai/jlo/-/releases/v#{version}/downloads/jlo_Linux_arm64.tar.gz"
-      sha256 "221fccad98e90af796e8e336d189f67427c4d11e95afe7ab487d4257c0d46095"
+      sha256 "6cd88129917e0d5c60fb40065706791e728a7ba66ddf1ff1a893e15a025e8266"
     end
   end
 
